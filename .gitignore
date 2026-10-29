@@ -1,0 +1,36 @@
+# ===== 操作系统生成文件 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 日志与临时文件 =====
+*.log
+*.tmp
+*.bak
+
+# ===== 个人隐私资料（严禁把真实病历放进仓库）=====
+private/
+my_records/
+personal/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+# 允许示例目录中的文件例外
+!assets/sample_records/**
+
+# ===== 本地软件数据 / 模型文件（体积大且属个人数据）=====
+storage/
+models/
+*.sqlite
+*.sqlite3
+*.db
+*.gguf
+*.bin
